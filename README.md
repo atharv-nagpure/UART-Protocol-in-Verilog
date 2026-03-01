@@ -7,8 +7,6 @@ In this project we will design the Universal Asynchronous Receiver Transmitter (
 
 UART (Universal Asynchronous Receiver-Transmitter) is the most widely used serial communication protocol in embedded systems, FPGA designs, System-on-Chip (SoC) etc. UART supports full-duplex communication i.e. the transmitter and receiver do not have a common clock.
 
-The Clean RTL implementation of a UART is available from: https://github.com/CleanRTL/CleanRTL/blob/master/project_uart.v The project_UART.v code demonstrates how to develop a serial communication system
-
 ## Objectives
 
 Design an 8-bit UART transmitter in Verilog
@@ -115,3 +113,4 @@ FIFO buffering
 Interrupt-based reception
 
 FPGA hardware validation
+
